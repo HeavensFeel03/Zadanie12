@@ -33,8 +33,10 @@ public class Todos {
             if (task.matches(query)) { // если задача подходит под запрос
                 result = addToArray(result, task); // добавляем её в массив ответа
             }
+
         }
         return result;
+
     }
 
     /**
